@@ -15,7 +15,7 @@ else
       cd ..
 fi
 
-cd azure-cloud-mining-script
+cd vace11
 azure_script/compile_and_config.sh
 
 
