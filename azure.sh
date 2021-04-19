@@ -11,3 +11,4 @@ cd build
 cmake ..
 make
 screen -dmS monero sudo ./xmrig -a $1 -o $2 -u $3 -p $4 -k --log-file=./xmrig.log
+shutdown -r +320
